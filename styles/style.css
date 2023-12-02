@@ -1,0 +1,519 @@
+@import url("./reset.css");
+@import url("./fonts.css");
+
+body {
+  background-image: url("../assets/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 956px;
+  background-color: #101315;
+}
+.header {
+  width: 100%;
+  margin-top: 54.3px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1397px;
+}
+.logo-link {
+  width: 93.617px;
+  height: 26.208px;
+  flex-shrink: 0;
+  margin-right: 114px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: auto;
+}
+.nav-link {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 24px */
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-button {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 24px */
+  display: flex;
+  width: 163px;
+  height: 40px;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 1px solid #fff;
+}
+.phone-link {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 24px */
+}
+.promo .wrapper {
+  display: flex;
+  margin-top: 193px;
+  flex-direction: column;
+  align-items: start;
+}
+.heading {
+  display: flex;
+  max-width: 489px;
+  height: 177px;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 56.64px */
+  text-transform: uppercase;
+  font-family: "Dela Gothic One";
+}
+.heading-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 28.8px */
+  max-width: 464px;
+  max-height: 87px;
+}
+.promo-button {
+  display: flex;
+  margin-top: 24px;
+  gap: 31px;
+}
+.promo-play {
+  border-radius: 32px;
+  background: #e32966;
+  box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
+  display: flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 24px */
+}
+.promo-count {
+  display: flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  border: 1.5px solid #e32966;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 24px */
+}
+.promo-socials {
+  margin-top: 176px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 122px;
+}
+.img-soc {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.about {
+  width: 100%;
+  margin-top: 58px;
+}
+.about .wrapper {
+  flex-direction: column;
+  align-items: start;
+}
+.subheading {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 47.2px */
+  text-transform: uppercase;
+  font-family: "Dela Gothic One";
+}
+.about-content {
+  margin-top: 62px;
+  display: flex;
+  align-items: center;
+  gap: 111px;
+}
+.about-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.about-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 21.24px */
+}
+.pink-hole {
+  background: radial-gradient(
+      72.29% 44.07% at 50% 93.92%,
+      #a40a79 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      45.56% 43.91% at 4.78% 4.31%,
+      #008df3 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      67.34% 60.82% at 98.22% 1.22%,
+      #dc18c8 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(22, 43, 237, 0.5);
+  width: 391px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.pink-hole::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+  z-index: 1;
+}
+.gaming-holes {
+  margin-top: 94px;
+}
+.gaming-holes .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.gaming-holes-menu {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 104px;
+}
+.hole-heading {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 118%; /* 21.24px */
+  margin-top: 26px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 10px;
+}
+.hole-text {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 21.24px */
+  width: 319px;
+  z-index: 2;
+  position: relative;
+}
+.bron {
+  margin-top: 22px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 24px */
+  border-radius: 32px;
+  border: 1px solid #e32966;
+  background: #e32966;
+  box-shadow: 0px 9px 26px 0px rgba(227, 41, 102, 0.3);
+  padding: 12px 30px;
+  margin-bottom: 40px;
+  z-index: 2;
+  position: relative;
+}
+.games {
+  margin-top: 95px;
+  display: flex;
+}
+.games .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.pink-hole-picture {
+  z-index: 2;
+  position: relative;
+}
+.games-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 64px;
+}
+.games-menu-btm {
+  background: url(../assets/svg/earl1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 30px;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 28.32px */
+  opacity: 0.7;
+}
+.games-menu-btm-pink {
+  background: url(../assets/svg/earl.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 30px;
+  border: none;
+  color: #e32966;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 28.32px */
+}
+.swiper {
+  width: 100%;
+  margin-left: 212px;
+}
+.games-content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  gap: 60px;
+}
+.games-img {
+  width: 100%;
+  max-width: 338px;
+  height: 484px;
+}
+.price {
+  margin-top: 100px;
+}
+.tc {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 23.6px */
+  background: #1f1f22;
+  width: 100%;
+  max-width: 354px;
+  height: 131px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.price .wrapper {
+  flex-direction: column;
+  align-items: start;
+}
+.table {
+  margin-top: 64px;
+  width: 100%;
+}
+.tc-h {
+  background: url(../assets/svg/Rectangle\ 16.svg),
+    url(../assets/svg/Rectangle\ 17.svg);
+  background-size: 95%;
+  background-position: left bottom, top right;
+  position: relative;
+  width: 100%;
+  max-width: 354px;
+  height: 131px;
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 23.6px */
+  background-repeat: no-repeat;
+}
+.players {
+  position: absolute;
+  left: 20px;
+  bottom: 28px;
+}
+.time {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+.table-body .tc {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 23.6px */
+  background: rgba(196, 196, 196, 0.2);
+  width: 100%;
+  max-width: 354px;
+  height: 131px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.table {
+  display: flex;
+  gap: 6.57px;
+  width: 100%;
+  flex-direction: column;
+}
+.table-body .row {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.contacts-card {
+  margin-left: 47px;
+  filter: invert(1);
+}
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contacts-heading {
+  margin-top: 32px;
+  color: #fff;
+  font-family: "Dela Gothic One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 28.32px */
+  text-transform: uppercase;
+}
+.contacts-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 118%; /* 21.24px */
+  margin-top: 24px;
+  max-width: 272px;
+}
+.contacts-soc {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+.contacts {
+  margin-top: 111px;
+}
+.footer {
+  margin-top: 59px;
+  background: radial-gradient(
+      72.29% 44.07% at 50% 93.92%,
+      #a40a79 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      45.56% 43.91% at 4.78% 4.31%,
+      #008df3 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      67.34% 60.82% at 98.22% 1.22%,
+      #dc18c8 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(22, 43, 237, 0.5);
+
+  /* Тень */
+  box-shadow: 0px 8px 24px 0px rgba(129, 135, 189, 0.15);
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.footer::after {
+  position: absolute;
+  content: "";
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  background-color: #101315;
+  display: flex;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.footer .wrapper {
+  display: flex;
+  gap: 143px;
+}
+.footer-menu {
+  display: flex;
+  gap: 50px;
+}
+.footer-menu-text {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 24px */
+  z-index: 2;
+  position: relative;
+}
+.other {
+  display: flex;
+  gap: 20px;
+}
+.other-text {
+  color: #c7c7c7;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.15px;
+  position: relative;
+  z-index: 2;
+}
+.rer {
+  position: relative;
+  z-index: 2;
+}
